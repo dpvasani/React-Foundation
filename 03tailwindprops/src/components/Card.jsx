@@ -1,9 +1,9 @@
 import React from 'react'
 import dpvasaniImage from '../assets/Dpvasani.jpg';
 
-function card(props) {
+function card(props, props.btnText="Default Value") {
     // console.log("props",props)
-    console.log(props.username, btnText="Default Value")
+    console.log(props.username)
   return (
     <div className="relative h-[400px] w-[300px] rounded-md">
     <img
