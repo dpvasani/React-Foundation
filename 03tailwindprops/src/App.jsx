@@ -13,7 +13,7 @@ let newArr = [1,2,3,4]
     <>
     <h1>Chai Or React | Tailwind</h1>
     <Card username ='Dp Vasani' SomeObj ={myObj} SomeArr= {newArr}/>
-    <Card username ='Darshan Vasani'/>
+    <Card username ='Darshan Vasani' btnText ="Click Me"/>
     </>
   )
 }

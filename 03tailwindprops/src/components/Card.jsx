@@ -3,7 +3,7 @@ import dpvasaniImage from '../assets/Dpvasani.jpg';
 
 function card(props) {
     // console.log("props",props)
-    console.log(props.username, btntext="Default Value")
+    console.log(props.username, btnText="Default Value")
   return (
     <div className="relative h-[400px] w-[300px] rounded-md">
     <img
@@ -19,7 +19,7 @@ function card(props) {
           Come Back Is <span className='text-violet-800'>Bloody Personal</span>
         </p>
         <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
-          View Profile &rarr;
+          {props.btnText};
         </button>
       </div>
     </div> 
