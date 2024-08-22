@@ -6,6 +6,8 @@ function App() {
 //   let counter = 5;
   const AddValue = ()=>{
     counter += 1;
+    setCounter((prevCounter) => prevCounter + 1) // Fetch Previous Value And Than Update So This Will Increment As Much You Increment This
+    setCounter(counter) // UseState Propagate Changes In Batches So This Will Update Value Only Once
     setCounter(counter)
     console.log(counter);
   }
